@@ -1,0 +1,23 @@
+Scattergories: Aline, Meghan, Susan, Tom, James
+
+Pursuit of Happiness: An Analysis of the World Happiness Report 2015-2019
+
+Summary Write-up:
+Our study was based on the World Happiness Report dataset. The World Happiness Report is a landmark survey on the state of global happiness that intended to use happiness indicators to inform policy making decisions. With a sample size of 1,000 people per country, this publication from the UN Sustainable Development Solutions Network using data obtained from gallup polling, saw participants take equally weighted ratings of their lives based on different life factors such as GDP per capita, social support, healthy life expectancy, freedom to make life choices, generosity, and perceptions of corruption. With this data we were able to examine the intersectional relationships between these factors and happiness. 
+
+Looking at happiness overall, we wanted to know if there were any trends in happiness over time, and whether or not there were specific regions or countries that experienced greater changes in happiness in comparison to global trends. We confirmed that, on a global level, there were not significant changes in happiness year over year. Additionally, there was not much change in terms of how different regions ranked in happiness -- happier regions stayed relatively happier, less happy regions stayed relatively less happy in relation to each other. However, when looking at the happiest and saddest countries over time, we did find that there were year to year changes that appeared to be inversely correlated between the 5 happiest and the 5 least happy countries: when the happiest got less happy, the least happy for more happy.
+
+We also wanted to know if the economy had an effect on happiness. We looked at our GDP per capita and happiness score data in order to see if there was a relationship between the two. GDP or Gross domestic product is a good indicator of economic performance of a country. As you can see when looking at the first chart there is a moderate positive relationship between GDP and happiness score. On average as GDP of a country increased so did their happiness score. This result was not shocking to us, as we hypothesized this in the beginning. 
+
+So after confirming that as GDP increased so did happiness we wanted to know if as GDP increased did generosity also increase? In other words we wanted to know if people had more money did that also make them more generous? The results were pretty interesting to see. As you can see in the scatter plot on the right there was no relationship between GDP and generosity.  
+
+In our next section of plots we took a look at the columns entitled Health (Life Expectancy), Happiness Score and Freedom. We went in with the assumption that both Health and Happiness Score could only be positively impact but a citizen feeling freer.
+
+The results supported this but the correlation was surprisingly weak. When we plotted both we got a r-squared value of .30 ( Freedom vs. Happiness Score) and .01 (Freedom vs. Health). One possible explanation for the first plot’s results was that other factors like GDP have a greater impact (as shown in our scatter plot) than Freedom. And for the later, we  were curious if any of the other columns (if any) would have had a strong correlation to freedom.
+
+We also wanted to know how Trust, the variable measuring Government Corruption, affects happiness.  As we ran our analyses, we noticed that there was a strange trend.  All of the R-Squared values came back as NaN, implying that Trust has zero relationship with the other variables, at least within the limitations of the Linear Regression Model.  This is also observable in the respective scatter plots.
+
+While we may never know the true reason behind this, we speculate that there may be a cultural component to the Trust variable that is not observed as strongly in the others.  This could be anything ranging from Government Corruption not being on the forefront of people’s minds and therefore having little effect on their happiness, to a fear of punishment or retaliation from one’s government if an unfavorable rating was discovered.
+
+In the end if we had more time we would like to dig deeper into the countries and regions to see if we could identify any trends as well as find a way to utilize a heat map. As well as wished our data had been a little more robust and included more years for analysis, especially 2020 (coming out next month).
+
